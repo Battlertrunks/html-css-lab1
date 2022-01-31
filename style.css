@@ -12,15 +12,18 @@ h2 {
   color: #000;
 }
 
+/* Setting the background color for the entire webpage */
 body {
   background-color: #f9fafc;
 }
 
+/* Setting font for all text in the webpage */
 .btn,
 body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* new margins for header and main after the reset */
 header,
 main {
   margin: 20px 25px;
@@ -31,24 +34,28 @@ footer h2 {
   font-size: 20px;
 }
 
+/* Setting up nav links layout */
 .nav-links {
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 
+/* Added padding to give better user experience when choosing link */
 .nav-links a {
   text-decoration: none;
   color: #69696a;
-  margin: 5px 0;
+  padding: 5px 0;
 }
 
+/* Centering the buttons on the screen */
 .btn-center {
   display: flex;
   justify-content: center;
 }
 
+/* Design for the black buttons */
 .btn {
   cursor: pointer;
   background-color: #000;
@@ -59,6 +66,7 @@ footer h2 {
   width: 100%;
   border-radius: 50px;
 }
+
 main h1 {
   margin: 15px 0;
 }
@@ -70,6 +78,11 @@ main p {
   padding-left: 20px;
 }
 
+main > .btn-center {
+  margin-top: 10px;
+}
+
+/* Designing the footer */
 footer {
   position: fixed;
   bottom: 0;
@@ -85,6 +98,7 @@ footer h2 {
   margin: 0 25px;
 }
 
+/* Removing the bullet point/disc from the lists */
 .footer-links {
   display: flex;
   list-style: none;
@@ -94,6 +108,7 @@ footer h2 {
   padding: 20px;
 }
 
+/* Removing the underline off of the anchors */
 .footer-links a {
   text-decoration: none;
   color: #69696a;
