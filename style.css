@@ -7,8 +7,17 @@ ul {
   margin: 0;
 }
 
+h1,
+h2 {
+  color: #000;
+}
+
 body {
   background-color: #f9fafc;
+}
+
+.btn,
+body {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -17,7 +26,8 @@ main {
   margin: 20px 25px;
 }
 
-header h1 {
+header h1,
+footer h2 {
   font-size: 20px;
 }
 
@@ -40,6 +50,7 @@ header h1 {
 }
 
 .btn {
+  cursor: pointer;
   background-color: #000;
   border: none;
   color: #fff;
