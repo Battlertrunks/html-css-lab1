@@ -1,0 +1,45 @@
+/* Resets */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+header,
+main {
+  margin: 20px 15px;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: lightblue;
+  margin: 5px 0;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  margin: 10px auto;
+  padding: 15px 0;
+  width: 100%;
+  border-radius: 50px;
+}
