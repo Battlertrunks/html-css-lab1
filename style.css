@@ -71,7 +71,7 @@ main h1 {
   margin: 15px 0;
 }
 
-main p {
+.description-text {
   color: #69696a;
   border-left: 4px #69696a solid;
   border-radius: 4px;
