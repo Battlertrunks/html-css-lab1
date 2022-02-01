@@ -46,6 +46,7 @@ footer h2 {
 
 .nav-links li {
   padding: 5px 0;
+  width: 100%;
 }
 
 /* Added padding to give better user experience when choosing link */
@@ -108,9 +109,6 @@ footer {
   background-color: rgba(247, 193, 162, 0.7);
 }
 
-footer h2 {
-}
-
 /* Removing the bullet point/disc from the lists */
 .footer-links {
   display: flex;
@@ -125,4 +123,29 @@ footer h2 {
 .footer-links a {
   text-decoration: none;
   color: #69696a;
+}
+
+@media only screen and (min-width: 786px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-links {
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+  }
+
+  .nav-links li {
+    width: fit-content;
+  }
+
+  .nav-links a {
+    padding: 10px;
+  }
+
+  .header-btn {
+    margin: 0;
+    padding: 10px 15px;
+  }
 }
