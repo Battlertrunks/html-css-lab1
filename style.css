@@ -63,16 +63,26 @@ footer h2 {
 } */
 
 /* Design for the black buttons */
-.btn {
-  display: block;
+.nav-links .btn,
+.info-container .btn {
   cursor: pointer;
+  display: block;
+  text-align: center;
   background-color: #000;
   border: none;
   color: #fff;
   margin: 10px auto;
-  padding: 15px 0;
+  padding: 10px 0;
   width: 100%;
   border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #222;
+  outline: 2px #000 solid;
+  outline-offset: -2px;
+  transition: background-color 0.5s ease;
 }
 
 .ctu-btn {
@@ -153,9 +163,9 @@ footer {
     padding: 10px;
   }
 
-  .header-btn {
+  .nav-links .header-btn {
     margin: 0;
-    padding: 10px 15px;
+    padding: 8px 5px;
   }
 
   .ctu-btn {
